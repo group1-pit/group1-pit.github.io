@@ -188,6 +188,11 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+section.successwhite {
+    color: #38383C;
+    background: #ffffff;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
