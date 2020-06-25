@@ -45,6 +45,7 @@ hr.star-primary {
     border-top: solid 5px;
     text-align: center;
     overflow: visible;
+    color: #38383C;
 }
 
 hr.star-light:after,
@@ -59,11 +60,11 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #E5A66C;
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #E5A66C;
     background-color: #{{ site.color.primary }};
 }
 
@@ -102,11 +103,13 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    color: #38383C;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    color: #38383C;
 }
 
 @media(min-width:768px) {
