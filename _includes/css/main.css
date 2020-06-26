@@ -40,13 +40,20 @@ a.active {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
     text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 700;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .imgs {
