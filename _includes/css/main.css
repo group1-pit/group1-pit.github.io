@@ -43,6 +43,11 @@ h6 {
     font-weight: 700;
 }
 
+.imgs {
+  margin: auto;
+  width: 90%;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
