@@ -1,0 +1,9 @@
+---
+layout: default
+column: two
+modal-id: 6
+title: Library Patron - Extra Resources
+date: 2014-07-02
+img: 6.png
+alt: image-alt
+---

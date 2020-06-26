@@ -1,0 +1,9 @@
+---
+layout: default
+column: one
+modal-id: 1
+title: Library Patron & Librarian - Login View
+date: 2014-07-07
+img: 1.png
+alt: image-alt
+---
