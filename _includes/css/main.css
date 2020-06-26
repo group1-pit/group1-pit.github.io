@@ -508,3 +508,14 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+
+.about-us ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+.about-us h4 {
+    text-align: left;
+}
