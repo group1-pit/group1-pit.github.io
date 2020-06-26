@@ -4,8 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
 body {
     overflow-x: hidden;
+   font-family: 'Open Sans',sans-serif !important;
+
 }
 
 p {
@@ -254,9 +259,19 @@ section.successwhite {
     z-index: 2;
 }
 
+.portfolio-column-two {
+    padding-top: 60px;
+}
+.portfolio-column-one {
+    margin-right: 100px;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin:0px;
+        box-shadow: 3px 3px 3px gray;
+        margin-bottom: 100px;
+        max-width: 300px;
     }
 }
 
@@ -266,17 +281,13 @@ section.successwhite {
       display: flex;
       flex-flow: row wrap;
       align-items: stretch;
-      justify-content: space-between;
+      justify-content: center;
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 49%;
-      max-width: 49%;
     }
   }
   @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 32%;
-      max-width: 32%;
     }
   }
   /* A large grid might need four columns on widescreen layouts */
