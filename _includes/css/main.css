@@ -525,3 +525,9 @@ footer .footer-below {
 .about-us h4 {
     text-align: left;
 }
+
+.list-styles-master {
+    font-size: 23px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
